@@ -6,4 +6,4 @@ chmod a+x atlassian-jira-software-8.3.3-x64.bin
 
 sudo ./atlassian-jira-software-8.3.3-x64.bin
 
-JAVA_HOME="/opt/atlassian/jira/jre/bin"
+PATH=$PATH:/opt/atlassian/jira/jre/bin
