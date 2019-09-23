@@ -6,5 +6,5 @@ sudo apt-get update -y
 
 sudo apt-get install postgresql-9.6 -y
 
-sudo su - postgres
+
 
