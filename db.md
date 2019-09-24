@@ -1,4 +1,4 @@
-**database config
+**database config**
 
 ```
 sudo su - postgres
