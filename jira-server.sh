@@ -41,14 +41,14 @@ sudo apt-get update -y
 
 sudo apt-get install postgresql-9.6 -y
 
-sudo su - postgres
+#sudo su - postgres
 
-createuser --interactive --pwprompt
+#createuser --interactive --pwprompt
 
-createdb -E UNICODE -l C -T template0 jiradb
-createdb -E UNICODE -l C -T template0 confluencedb
-createdb -E UNICODE -l C -T template0 bitbucketdb
+#createdb -E UNICODE -l C -T template0 jiradb
+#createdb -E UNICODE -l C -T template0 confluencedb
+#createdb -E UNICODE -l C -T template0 bitbucketdb
 
 echo "Please grant privileges to the user for the databases!"
 
-psql
+#psql
