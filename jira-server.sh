@@ -49,6 +49,6 @@ sudo ./atlassian-bitbucket-6.6.1-x64.bin
 #createdb -E UNICODE -l C -T template0 confluencedb
 #createdb -E UNICODE -l C -T template0 bitbucketdb
 
-echo "Please grant privileges to the user for the databases!"
+#echo "Please grant privileges to the user for the databases!"
 
 #psql
